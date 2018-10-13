@@ -45,11 +45,13 @@ $('.paragraf-next').css({
 
 
 //dodawanie i usuwanie klas
+//
+//setTimeout(function () {
+//    //    $('body').addClass("decor");
+//    $('body').removeClass("page");
+//
+//}, 2000);
 
-setTimeout(function(){
-    $('body').addClass("decor");
-},2000);
-
-
-
-
+setInterval(function(){
+    $('body').toggleClass('decor');
+},1500)
