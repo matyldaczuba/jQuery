@@ -21,6 +21,8 @@ $('.anim').on('click', function(){
        'width': '600px',
        'height': '600px',
        'left': '300px'
+   }, 2500, function(){
+       $('body').addClass('decor');
    }
    );
 });

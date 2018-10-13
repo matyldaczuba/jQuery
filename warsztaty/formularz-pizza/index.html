@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularze</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/matylda.czuba@pm.me" method="POST">
+        <label>Imię
+        <input type="text" name="imie"></label><br>
+
+        <label>Nazwisko
+        <input type="text" name="nazwisko"></label><br>
+
+        <label>E-mail
+        <input type="email" name="mail"></label><br>
+
+        <label>Nr telefonu
+        <input type="number" name="telefon"></label><br>
+
+        <label>
+        <input type="radio" name="gender" id="male" value="m">Mężczyzna</label><br>
+
+        <label>
+        <input type="radio" name="gender" id="female" value="f">Kobieta</label><br>
+
+        <label>Kraj
+        <select name="kraj" id="country">
+           <option value="Polska">Polska</option>
+           <option value="Ukraina">Ukraina</option>
+           <option value="Rosja">Rosja</option>
+       </select><br>
+        </label>
+        <label>Wiadomość
+        <textarea name="wiadomosc"></textarea></label><br>
+
+        <input type="submit" value="Wyslij">
+    </form>
+</body>
+</html>
