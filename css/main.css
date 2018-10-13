@@ -1,7 +1,16 @@
+body{
+    height: 300vh;
+}
+
 .decor{
     background: aqua;
 }
 
 .page{
     background: orange;
+}
+
+.decor-bold{
+    font-size: 4rem;
+    color: cornflowerblue;
 }
