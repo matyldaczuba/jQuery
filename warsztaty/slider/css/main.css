@@ -46,3 +46,14 @@ figcaption {
     left: auto;
     right: 30px;
 }
+
+.slide-caption{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    z-index: 3;
+}
